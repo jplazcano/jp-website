@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 3</title>
+    <title>Interactive Python Application for Financial Product Tracking at Poncho Capital</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -22,12 +22,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/png/juanpe-pic.png"
+              alt="Juanpe Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Juan Pedro Lazcano</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,80 +84,124 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 3</h1>
+        <h1 class="heading-primary">Interactive Python Application for Financial Product Tracking at Poncho Capital (WIP)</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            A User-Friendly, Dynamic Dashboard for Real-Time Investment Analysis and Decision-Making
           </p>
         </div>
-        <div class="project-cs-hero__cta">
+        <!-- <div class="project-cs-hero__cta">
           <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
+          <div class="project-details__showcase-img-cont"; style="display: flex; justify-content: center;">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/finance-photos/finance4.png"
               alt="Project Image"
               class="project-details__showcase-img"
+              style="width:1000px;
+               height:auto"
+
             />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
+              <h3 class="project-details__content-title">Introduction</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                In the fintech industry, it is crucial for organizations to stay updated on the performance of the
+                financial products they offer. Poncho Capital, a fintech company specializing in the
+                purchase and sale of financial products, has recently incorporated a Streamlit application to assist its
+                employees in tracking and making informed decisions about the financial products they provide.
+              </p>
+              <h3 class="project-details__content-title">Application Overview</h3>
+              <p class="project-details__desc-para">
+                The Streamlit application is designed to monitor various types of financial assets,
+                including Argentinian stocks, CEDEARs (Certificates of Deposit for Argentine Shares),
+                and cryptocurrencies. The application retrieves data from Yahoo Finance and processes
+                it using the yfinance, pandas, plotly, and ta (technical analysis) libraries in Python.
+              </p>
+              <h3 class="project-details__content-title">Key Features</h3>
+              <ol class="project-details__desc-para">
+                <li class="project-details__desc-para">1. Normalized Stock Prices: This feature displays the normalized stock prices
+                  of the selected financial products within the specified date range. By normalizing the prices, users can easily compare
+                  the performance of different assets, making it simpler to identify trends and potential investment opportunities.</li>
+                <li class="project-details__desc-para">2. Percentage Change: The application calculates the percentage change
+                  of the selected financial products over the specified time frame. This metric helps users quickly evaluate the
+                  performance of each asset, making it easier to identify the most promising investment options.</li>
+                <li class="project-details__desc-para">3. Candlestick Charts with SMA and EMA Indicators: For users
+                  interested in technical analysis, the application offers the option to display candlestick charts with
+                  Simple Moving Average (SMA) and Exponential Moving Average (EMA) indicators. These charts provide a visual
+                  representation of the asset's price movements, allowing users to identify potential entry and exit points
+              </ol>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/finance-photos/finance1.png"
+                  alt="Project Image Raw Data"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <h3 class="project-details__content-title">Use Cases</h3>
+              <ol class="project-details__desc-para">
+                <li class="project-details__desc-para">1. Portfolio Managers: Portfolio managers can
+                  use the application to monitor the performance of the assets in their portfolios, track market trends, and make more
+                  informed decisions when adjusting their portfolios.</li>
+                <li class="project-details__desc-para">2. Risk Management Teams: By analyzing the historical price data and technical
+                  indicators, risk management teams can identify potential risks and devise strategies to mitigate them.</li>
+                <li class="project-details__desc-para">3. Investment Analysts: The application can help investment analysts
+                  research and compare different financial products to make better recommendations to their clients or internal teams.</li>
+                <li class="project-details__desc-para">4. Sales and Marketing Teams: By staying updated on the performance
+                  of Poncho Capital's financial products, sales and marketing teams can better tailor their strategies and pitches
+                  to prospective clients.</li>
+              </ol>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/finance-photos/finance3.png"
+                  alt="Project Image Raw Data"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <h3 class="project-details__content-title">Conclusion</h3>
+              <p class="project-details__desc-para">
+                Poncho Capital's Streamlit application serves as a powerful tool for monitoring and analyzing the financial
+                products they offer. By providing a user-friendly interface and comprehensive visualizations and metrics,
+                the application empowers Poncho Capital's team members to make well-informed decisions and better serve their clients.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                Currently, the application is undergoing enhancements to offer more advanced technical analysis features,
+                as well as a new section dedicated to creating portfolios and calculating the Markowitz Efficient Frontier.
+                This will allow users to apply sophisticated portfolio risk analysis techniques to optimize their investment
+                strategies. Stay tuned for updates on the implementation of these exciting new functionalities in the near future.
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Streamlit</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">Plotly</div>
+                <div class="skills__skill">Yahoo Finance</div>
               </div>
             </div>
             <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
+              <p class="project-details__desc-para">
+              </p>
+               <a
+                href="https://github.com/jplazcano/finance-dashboard/"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
-                >Live Link</a
+                >Github Link</a
               >
-              <a
-                href="#"
+              <!--<a
+                href="https://github.com/jplazcano/finance-dashboard/tree/main"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
-              >
+              > > -->
             </div>
           </div>
         </div>
@@ -209,19 +253,10 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Juan Pedro Lazcano</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
             </p>
           </div>
-        </div>
-
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
         </div>
       </div>
     </footer>
