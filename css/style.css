@@ -294,11 +294,11 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    display: block;
-    object-fit: contain;}
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
@@ -453,14 +453,16 @@ textarea {
 }
 
 .project-details__showcase-img {
-  width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 .project-details__content-main {
   width: 100%;
   max-width: 70rem;
   margin: auto; }
-.project-details__showcase-img-cont2{
-  width: 60%;
+.project-details__showcase-img-cont2 {
+  width: 100%;
+  max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
   margin-bottom: 3rem;
   margin: 0 auto;
 }
